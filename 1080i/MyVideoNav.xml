@@ -754,8 +754,19 @@
                     <include>DefContextButtonGradient</include>
                     <usealttexture>Library.IsScanningVideo</usealttexture>
                 </control>
+                <control type="button" id="55555">
+                    <include>DefContextMenuLabel</include>
+                    <label>Actions</label>
+                </control>
+                <control type="button" id="9089" description="Add-on settings">
+                    <include>DefContextButtonGradient</include>
+                    <align>left</align>
+                    <label>Add-on settings</label>
+                    <onclick>SetFocus(50)</onclick>
+                    <onclick>Addon.OpenSettings($INFO[Container.PluginName])</onclick>
+                </control>
                 <include>ButtonPlaylist</include>
-                <control type="button" id="5555">
+                <control type="button" id="5556">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
                     <label>31195</label>
