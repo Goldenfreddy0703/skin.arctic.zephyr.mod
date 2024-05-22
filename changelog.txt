@@ -1,3 +1,6 @@
+[B]3.0.2[/B]
+Added Add-on settings to view options
+
 [B]3.0.1[/B]
 Minor adjustments
 Language updates
